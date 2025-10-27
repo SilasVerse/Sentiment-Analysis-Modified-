@@ -6,18 +6,21 @@ This project performs **sentiment analysis on tweets** using a **neural network 
 
 ## 🚀 Overview
 
-This project refines and extends the Kaggle notebook:
-
-### 👨‍💻 Author
+This project is a refined and extended version of the original Kaggle notebook:
 
 > **Original work:** [EDA Twitter Sentiment Analysis using NN](https://www.kaggle.com/code/muhammadimran112233/eda-twitter-sentiment-analysis-using-nn)  
 > **Original Author:** Muhammad Imran
 
-> **Modified by:** [Silas](https://github.com/SilasVerse)
+> **Modified & Enhanced by:** [Silas](https://github.com/SilasVerse)
 
-> (for academic purpose)
+> (Developed for academic and research purposes)
+
+> This refined implementation builds upon the original sentiment analysis workflow by introducing key improvements across data processing, model architecture, and evaluation.
 
 > All preprocessing, model structure, and evaluation were revisited for better accuracy and interpretability.
+
+> The goal was to enhance accuracy, robustness, and real-world usability of the sentiment classifier while maintaining clarity and reproducibility.
+
 
 ---
 
