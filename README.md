@@ -1,7 +1,6 @@
-# 🧠 Twitter Sentiment Analysis using LSTM (Refined)
+# Twitter Sentiment Analysis using LSTM (Refined)
 
-This project performs **sentiment analysis on tweets** using a **neural network (LSTM)** enhanced with **pre-trained GloVe embeddings**, **custom preprocessing**, and **early stopping**.  
-It can classify user-input text as **Positive**, **Negative**, or **Neutral**.
+This project performs **sentiment analysis on tweets** using a **neural network (LSTM)** enhanced with **pre-trained GloVe embeddings**, **custom preprocessing**, and **early stopping**.  It can classify user-input text as **Positive**, **Negative**, or **Neutral**.
 
 ---
 
@@ -14,13 +13,11 @@ This project refines and extends the Kaggle notebook:
 > **Original work:** [EDA Twitter Sentiment Analysis using NN](https://www.kaggle.com/code/muhammadimran112233/eda-twitter-sentiment-analysis-using-nn)  
 > **Original Author:** Muhammad Imran
 
-> Modified by:
-> 👨‍💻 Silas
-> 📧 silasandeson.rpce@google.com
+> **Modified by:** [Silas](https://github.com/SilasVerse)
 
-(for academic purpose only)
+> (for academic purpose)
 
-All preprocessing, model structure, and evaluation were revisited for better accuracy and interpretability.
+> All preprocessing, model structure, and evaluation were revisited for better accuracy and interpretability.
 
 ---
 
@@ -42,55 +39,87 @@ All preprocessing, model structure, and evaluation were revisited for better acc
 
 ## 🧩 Model Architecture
 
-👨‍💻
 Input (max_len = 500)
+
    ↓
+   
 Embedding (GloVe pretrained vectors)
+
    ↓
+   
 LSTM (64 units)
+
    ↓
+   
 Dense (256, ReLU)
+
    ↓
+   
 Dropout (0.5)
+
    ↓
+   
 Dense (1, Sigmoid)
 
+--------------
 
 ## Download dataset
 
+From: [Sentiment140 dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)
+
 Use the dataset:
 
-training.1600000.processed.noemoticon.csv
+"training.1600000.processed.noemoticon.csv"
 
+----
 ## Download GloVe embeddings
 
-From: GloVe Twitter 100d
+From: [GloVe Twitter 100d](https://nlp.stanford.edu/projects/glove/)
 
-Then extract 
+Then extract "glove.twitter.27B.100d.txt"
 
-glove.twitter.27B.100d.txt
+-------------
 
 ## ⚙️ Technologies Used
 
-Python 3.x
+- Python 3.x
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-NLTK
+- NLTK
 
-Pandas / NumPy
+- Pandas / NumPy
 
-Matplotlib
+- Matplotlib
 
-GloVe pretrained embeddings
+- GloVe pretrained embeddings
 
-VADER Sentiment Analyzer (fallback)
+- VADER Sentiment Analyzer (fallback)
 
-📚 Credits
+-----
+## 📚 Credits
 
-Kaggle Notebook
+- [Kaggle Notebook](https://www.kaggle.com/code/muhammadimran112233/eda-twitter-sentiment-analysis-using-nn)
 
-Stanford NLP GloVe Embeddings
+- [Stanford NLP GloVe Embeddings](https://nlp.stanford.edu/projects/glove/)
 
-NLTK VADER Lexicon
+- [NLTK VADER Lexicon](https://github.com/cjhutto/vaderSentiment)
 
+------
+
+## 🪪 License
+
+This project is open source under the MIT License.
+Please see the [LICENSE](https://github.com/SilasVerse/Twitter-Sentiment-Analysis-Upgrade/blob/main/LICENSE)
+
+Note: This repository contains significant modifications and enhancements to the original Kaggle notebook.
+Proper attribution is maintained in accordance with open-source ethics.
+
+---------
+### 👨‍💻 Author
+
+- Silas
+
+- 📧 silasanderson.rpce@gmail.com
+
+- 🌐 [SilasVerse](https://github.com/SilasVerse) 
