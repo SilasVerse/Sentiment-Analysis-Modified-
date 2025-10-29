@@ -11,9 +11,13 @@ This project is a refined and extended version of the original Kaggle notebook:
 > **Original work:** [EDA Twitter Sentiment Analysis using NN](https://www.kaggle.com/code/muhammadimran112233/eda-twitter-sentiment-analysis-using-nn)  
 > **Original Author:** Muhammad Imran
 
-> **Modified & Enhanced by:** [Silas](https://github.com/SilasVerse)
+> **Modified & Enhanced by:** [Silas (H.L)](https://github.com/SilasVerse)
 
 > (Developed for academic and research purposes)
+
+- The original notebook focused mainly on demonstration and EDA, serving as a strong foundation for understanding sentiment modeling.
+  
+- The refined version transforms it into a production-style research model — optimized, explainable, and capable of interactive text sentiment classification.
 
 > This refined implementation builds upon the original sentiment analysis workflow by introducing key improvements across data processing, model architecture, and evaluation.
 
